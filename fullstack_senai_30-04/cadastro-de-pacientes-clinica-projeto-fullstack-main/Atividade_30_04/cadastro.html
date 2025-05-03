@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cadastro.css">
+    <title>Cadastro</title>
+</head>
+<body>
+    <div class="container">
+        <img src="/Atividade_30_04/images/icon-clinica.png" alt="logo">
+        <h2>Cadastro de Pacientes</h2>
+
+        <form id="cadastroForm">
+            <input type="text" id="nome" placeholder="Nome" required>
+            <input type="text" id="telefone" placeholder="Telefone" required>
+            <input type="text" id="email" placeholder="E-mail" required>
+            <input type="password" id="senha" placeholder="Senha" required>
+            <button type="button" onclick="cadastrarPaciente()">Cadastrar</button>
+        </form>
+
+        <a href="pacientes.html" class="link-pacientes-cadastrados">Ver pacientes cadastrados</a>
+        <br>
+        <a href="bem_vindo.html" class="link-pacientes-cadastrados">Voltar a página inicial</a>
+
+        <div id="mensagem" class="mensagem oculta" onclick="fecharMensagem()"></div>
+
+        <script src="script_cadastro.js"></script>
+    </div>
+</body>
+</html>
