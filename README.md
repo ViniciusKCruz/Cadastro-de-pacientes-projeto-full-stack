@@ -63,4 +63,4 @@ O sistema permite que os usuários cadastrem pacientes e visualizem os dados cad
 
 ![Minha Foto](https://avatars.githubusercontent.com/u/169309059?v=4)
 
-Projeto desenvolvido por [Vinícius - Dev Full Stack]([https://github.com/seu-usuario](https://github.com/ViniciusKCruz)).
+[Vinícius - Dev Full Stack]([https://github.com/seu-usuario](https://github.com/ViniciusKCruz)).
